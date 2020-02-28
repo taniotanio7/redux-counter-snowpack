@@ -13,6 +13,7 @@
     "build": "babel src --out-dir lib && snowpack --optimize --clean --nomodule lib/app.js"
   },
   "devDependencies": {
+    "@emotion/babel-preset-css-prop": "^10.0.27",
     "concurrently": "^5.1.0",
     "servor": "^3.2.0",
     "snowpack": "^1.5.0"
@@ -21,6 +22,9 @@
     "@babel/cli": "^7.8.4",
     "@babel/core": "^7.8.6",
     "@babel/preset-react": "^7.8.3",
+    "@emotion/core": "^10.0.28",
+    "@emotion/styled": "^10.0.27",
+    "@emotion/styled-base": "^10.0.28",
     "react": "npm:@pika/react",
     "react-dom": "npm:@pika/react-dom"
   }
