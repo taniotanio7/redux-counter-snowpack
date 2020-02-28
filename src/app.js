@@ -3,6 +3,7 @@ import ReactDOM from "react-dom";
 import styled from "@emotion/styled";
 import { css } from "@emotion/core";
 import Display from "./components/Counter/Display.js";
+import Change from "./components/Counter/Change.js";
 import { Provider } from "react-redux";
 import store from "./store.js";
 
@@ -14,6 +15,7 @@ export const App = () => {
       <hr />
       <div></div>
       <Display />
+      <Change />
     </>
   );
 };
